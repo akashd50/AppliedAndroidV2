@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akash.appliedandroidv2.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/coolDark"
+        android:elevation="4dp"
+        android:theme="@style/AppTheme"
+        android:titleTextColor="@color/expColor"
+        app:popupTheme="@color/colorPrimary"
+        app:title="@string/toolbar2"
+        app:titleTextColor="@color/expColor"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar2"
+        android:layout_marginTop="96dp"
+        android:onClick="onButtonClick"
+        android:text="View Class" />
+
+    <Button
+        android:id="@+id/canvasViewbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:onClick="canvasViewClick"
+        android:text="Canvas" />
+
+    <Button
+        android:id="@+id/gameLoopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/canvasViewbutton"
+        android:layout_marginTop="60dp"
+        android:onClick="gameLoopClick"
+        android:text="Game Loop" />
+
+    <Button
+        android:id="@+id/GLRenderer"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:onClick="glRendererCLick"
+        android:text="Button" />
+
+</RelativeLayout>
