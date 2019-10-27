@@ -2,6 +2,8 @@ Initially started as testing application to try different API's in Android Studi
 + Chess game
 + SpaceShooter
 
+*Check the releases section for the apk*
+
 *Screenshots*
 ![Screenshot 1](https://github.com/akashd50/AppliedAndroidV2/blob/master/images/Screenshot_20191027-085804_AppliedAndroidV2.jpg)*
 ![Screenshot 1](https://github.com/akashd50/AppliedAndroidV2/blob/master/images/Screenshot_20191027-085815_AppliedAndroidV2.jpg)*
